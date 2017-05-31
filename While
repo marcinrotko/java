@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class While {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int number = 10;
+		while (number !=10){ //w ogole nie wykona sie poniewaz nie jest rózne od 10
+			System.out.println("AAA");
+			
+		}
+	}
+
+}
