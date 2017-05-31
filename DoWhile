@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class DoWhile {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int number;
+		do{
+			System.out.println("Podaj poprawną liczbę");
+			number = scanner.nextInt();
+		}while(number !=10);
+		}
+	}
+
+
