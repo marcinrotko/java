@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Zad5 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
+		if (age>=18)
+			System.out.println("Jestes pełnoletni");
+		else
+			System.out.println("Nie możesz korzystać z tego serwisu");
+		
+	}
+
+}
