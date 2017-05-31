@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Name {
+
+	
+	public static void main(String[] args) {
+		String name = "Marcin";
+		char letter = 'a';
+		System.out.println("Podaj imię: ");
+		Scanner scanner = new Scanner(System.in);
+		name = scanner.next();
+		if (name.endsWith("a")){
+			System.out.println("Imię jest żeńskie");
+		}
+		else{
+			System.out.println("Imię jest męskie");
+		}
+
+	}
+
+}
