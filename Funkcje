@@ -1,0 +1,32 @@
+
+public class Funkcje {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		double y = f(5);
+		System.out.println(y);
+		double z = f(10);
+		System.out.println(z);
+		System.out.println(f(50)); // nie trzeba deklarowac zmiennej, mozna podac w nawiasach
+		print("Adam");
+		print("Ania");
+		
+		}
+	
+	// f  x y
+	static double f(double x){
+		return 2*x;
+	}
+	//tworzenie funkcji print zamiast wywolywania System.out.println();
+	static void print(String word){
+		System.out.println(word);
+	}
+	}
+
+/*		int sum = 0;
+for (int i=1;i<=10;i++){
+	sum = sum + i;
+	System.out.println(sum); */
+
