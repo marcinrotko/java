@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Zad3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		///153 = 1*10^2+5*10^1+3*10^0 - system pozycyjny na wikipedii
+		System.out.println(a%10);
+	}
+
+}
+
+//odczytuje liczbę całkowitą i wypisuje na ekran ostatnia cyfrę danej liczby
