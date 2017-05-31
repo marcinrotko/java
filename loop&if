@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Loop {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Podaj swój wiek");
+		int age = scanner.nextInt();
+		System.out.println("Twój wiek to "+age);
+		
+		if ( age>=18 ){
+			System.out.println("Jesteś osobą dorosła");
+		}
+		else{
+			System.out.println("Jesteś dzieckiem");
+		}
+		
+
+	}
+
+}
