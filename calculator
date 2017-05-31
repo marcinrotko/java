@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Zad7 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("Podaj a:");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		System.out.println("Podaj b:"); //ctr+space
+		int b = sc.nextInt();
+		System.out.println("a+b = "+(a+b)); //+konkatenacja - łączenie stringów 
+		System.out.println("a-b = "+(a-b));
+		System.out.println("a*b ="+(a*b));
+		System.out.println("a/b ="+(a/b));
+		System.out.println("a%b = "+(a%b));
+	}
+
+}
