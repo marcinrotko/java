@@ -1,0 +1,57 @@
+package com.company;
+
+public class Car {
+    String brand;
+    String model;
+    Person owner;
+
+    public Car() {
+    }
+}
+------------------------------
+package com.company;
+
+public class Main {
+    public Main() {
+    }
+
+    public static void main(String[] args) {
+        Person michal = new Person("Marcin", "Kowalski", 18);
+        System.out.println(michal.fullName() + " " + michal.age);
+        Person jola = new Person();
+        jola.name = "Ania";
+        jola.surname = "Wans";
+        jola.age = 15;
+        System.out.println(jola.name + " " + jola.surname + " " + jola.age);
+        Car myCar = new Car();
+        myCar.brand = "BMW";
+        myCar.model = "X5";
+        myCar.owner = michal;
+        System.out.println(myCar.brand + " " + myCar.model);
+        System.out.println("Właścicielem " + myCar.owner.fullName());
+    }
+}
+
+-------------------
+
+package com.company;
+
+public class Person {
+    String name;
+    String surname;
+    int age;
+
+    public Person() {
+    }
+
+    public Person(String name, String surname, int age) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+    }
+
+    String fullName() {
+        return this.name + " " + this.surname;
+    }
+}
+---------------------------------------
