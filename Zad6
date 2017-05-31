@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Zad6 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		
+		int max;
+		if ( a>b )
+			max = a;
+		else
+			max = b;
+		if ( c>max )
+			max = c;
+		System.out.println(max);
+	}
+
+}
+
+//odczytać trzy liczby i wypisać na ekran największą
