@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+public class Zad8 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in );
+		int a = sc.nextInt();
+		// 10 8 = 10 = 1*8+2
+		// 10 = 5*2 + 0
+		// 11 = 5*2 + 1
+		// 15 = 7*2 + 1
+		// 18 = 9*2 + 0 
+		
+		if ( a % 2 ==0){
+			System.out.println("Liczna parzysta");
+		}
+		else{
+			System.out.println("Liczba nieparzysta");
+		}
+		
+
+	}
+
+}
