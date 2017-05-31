@@ -1,0 +1,21 @@
+
+
+public class Zad11 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum = 0;
+		for (int i=1;i<1001;i++){
+			sum = sum+i;
+			
+			System.out.println(sum);
+		}
+		System.out.println("Suma wszystkich licz w ciagu to: "+sum);
+	}
+
+}
+
+//oblicza sumę 1+2+3+4...+1000
